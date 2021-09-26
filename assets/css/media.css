@@ -1,0 +1,109 @@
+@media screen and (max-width: 800px) {
+    #header .content-text {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    #header .sub-text {
+        font-size: 16px;
+    }
+    .half-net {
+        grid-template-columns: 1fr;
+    }
+
+    .slider {
+        grid-template-columns: 1fr;
+    }
+
+    .slider .slider-2 {
+        height: 100%;
+    }
+
+    .container {
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .form-setion {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-section .form-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+
+    .form-section .form-list span {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    #content .content-section {
+        grid-gap: 12px;
+    }
+
+    #content .sub-text {
+        margin-top: 12px;
+    }
+}
+
+@media screen and ( max-width: 1150px ) {
+    .slider-2 .content-text {
+        font-size: 2.1em;
+    }
+
+    .slider-2 .sub-text-photo {
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media screen and ( max-width: 950px ) {
+    .slider-2 .content-text {
+        font-size: 1.4em;
+    }
+
+    .slider-2 .sub-text-photo {
+        font-size: 0.8em;
+    }
+
+    .navbar .logo {
+        margin-left: 24px;
+        font-size: 36px;
+    }
+    .navbar .checkbtn {
+        display: block;
+    }
+
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(236, 236, 134, 0.85);
+        top: 76px;
+        left: -100%;
+        text-align: center;
+        transform: all .5s;
+    }
+
+    .navbar ul li {
+        display: block;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .pdt-112 {
+        padding-top: 76px;
+    }
+}
